@@ -5,7 +5,7 @@ def countdown(t):
             print(t,'minutes')
             t -= 1
             time.sleep(0.15)     
-            if(t==4):
+            if(t==3):
                 x = int(input('>: '))
                 if(x==4815162342):
                     for i in range(108):
